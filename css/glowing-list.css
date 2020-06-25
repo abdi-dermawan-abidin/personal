@@ -79,3 +79,9 @@ ul li:hover::after {
     transition: transform 0.5s;
     transform-origin: top;
 }
+
+@media screen and (max-width: 600px) {
+    ul li {
+        font-size: 1em;
+    }
+}

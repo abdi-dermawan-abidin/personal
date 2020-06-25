@@ -27,6 +27,11 @@ ul li {
     transition: 0.5s;
 }
 
+ul.list-large li {
+    font-size: 5em;
+    padding: 50px;
+}
+
 ul li a {    
     color: #FFF;
     font-family: monospace;
@@ -82,6 +87,13 @@ ul li:hover::after {
 
 @media screen and (max-width: 600px) {
     ul li {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
+
+/* @media screen and (max-width: 4000px) {
+    ul.list-large li {
+        font-size: 5em;
+        padding: 50px;
+    }
+} */

@@ -90,10 +90,3 @@ ul li:hover::after {
         font-size: 1.5em;
     }
 }
-
-/* @media screen and (max-width: 4000px) {
-    ul.list-large li {
-        font-size: 5em;
-        padding: 50px;
-    }
-} */
